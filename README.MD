@@ -2,14 +2,10 @@
 **Secure Token Exchange System with PDA-Managed Vaults**  
 *An Anchor-based implementation of cross-chain-like token swaps on Solana*
 
-[![Anchor v0.29.0](https://img.shields.io/badge/Anchor-0.29.0-3cf)](https://anchor-lang.com)
-[![SPL Token](https://img.shields.io/badge/SPL%20Token-3.5.0-blue)](https://spl.solana.com/token)
-[![Solana 1.16](https://img.shields.io/badge/Solana-1.16.18-purple)](https://solana.com)
 
 ## Overview 📜
 A decentralized escrow system enabling atomic swaps between SPL tokens using program-derived addresses (PDAs) for secure asset custody. Implements maker-taker pattern with automated settlement and refund capabilities.
 
-![Escrow State Diagram](https://mermaid.ink/svg/pako:eNqNkkFPwzAMhf9KlNdN2gVKQ0hI3EBC4rKJg7m0cUjTtYk6rRP_Dl3HkBCXHZ7t7_-e7ShWkFqD3sJbC5uJ0Cv0rq0bUYh1s7U7cG1fB1G6zqOoGk9R6gP4FmIh7Kz4n6Lg6xqjDvUaU4dGdWZqHX2bKz8DqH0A5QY1Q5DgHcY6o5q7bYQ1Qh1JX4jBGGUzQr8M4qM7mQ2wD9B7qHqoGigqKEooN9C00HdQ9lD1UPRQd1C1kDdQtFA2UNRQVlBUsBqgHqEZoR2hG6EboB2gG6EfoR-hG6AboBuhH6EfoRugG6AboR-hH6EboBugG6EfoR-hG6AboBuhH6EboBmhHaEdYj7AeYT3CeoT1COsR1iOsR1iPsB5hPcJ6hPUI6xHWI6xHWI-wHmE9wnqE9QjrEdYjrEdYj7AeYT3CeoT1COsR1iOsR1iPsB5hPcJ6hPUI6xHWI6xHWI-wHmE9wnqE9QjrEdYjrEdYj7AeYT3CeoT1COsR1iOsR1iPsB5hPcJ6hPUI6xHWI6xHWI_wD8N6S3Y)
 
 ## Key Features 🛡️
 - **Atomic Swap Mechanism**: Trustless token exchanges between two parties
